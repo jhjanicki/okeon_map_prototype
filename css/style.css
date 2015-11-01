@@ -1,0 +1,125 @@
+.gratBackground{
+	fill: #bdd7e7; /* #FFE7AD; */
+}
+
+.gratLines {
+	 fill: none;
+	 stroke: white;
+	 stroke-width: 1px;
+	 opacity: 1;
+ }
+
+ 
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+
+
+.okinawa{
+	fill: #888A63;
+}
+
+.top-marg{
+	margin-top: 50px;
+}
+
+.point{
+	z-index:999;
+	stroke-width:0.3;
+	
+}
+.infolabel{
+	position:absolute;
+	top:110px;
+	left:110px;
+	width:200px;
+	height:50px;
+	/* background-color: #CC6B32; */
+	/* color:white; */
+	text-align: center;
+}
+
+.infolabel p{
+	font-family: 'Titillium Web', san-serif;
+	padding:5px;
+}
+
+.infopanel{
+	color:black;
+	font-family: 'Titillium Web', san-serif;
+}
+
+.infopanel p{
+	font-size:18px;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+#map{
+	
+}
+
+#mapContainer{
+	margin-top:50px;
+	margin-bottom:100px;
+/*
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+*/
+}
+
+.site-list{
+	font-family: 'Titillium Web', san-serif;
+	list-style-type: circle;
+}
+
+.site-list li{
+
+}
+.colorbox {
+	width: 70px;
+	height: 25px;
+	border: 1px solid black;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+.textbox {
+	width: 70px;
+	height: 25px;
+	border: 1px solid black;
+	margin-right:10px;
+	background-color:none;
+	margin-bottom:10px;
+}
+
+.inline { float:left; }
+
+@media all and (max-width:550px){
+	.infolabel{
+		top:500px;
+		left:250px;
+	}
+	
+	.colorbox {
+	width: 60px;
+	font-size:12px;
+	
+	}
+	.textbox {
+	width: 50px;
+	font-size:12px;
+	
+	}
+	
+}
+
+
+
+
